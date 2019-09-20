@@ -9,7 +9,7 @@
         </Async>
     </appenders>
     <loggers>
-        <logger name="com.ctrip.dubbo.service" additivity="false" level="TRACE">
+        <logger name="org.ghy.dubbo.service" additivity="false" level="TRACE">
             <AppenderRef ref="Async"/>
         </logger>
         <root level="INFO">

@@ -18,10 +18,9 @@
                 <tr>
                     <th>Code First Dubbo</th>
                     <th><a href="/dubbo/sync" style="color:blue;">Demo</a></th>
-                    <th><a href="/dubbo/async" style="color:blue;">Demo</a></th>
+                    <th>Demo</th>
                 </tr>
             </table>
 </div>
 </body>
-
 </html>

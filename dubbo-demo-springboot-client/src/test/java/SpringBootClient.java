@@ -2,7 +2,7 @@ import java.awt.*;
 import java.net.URI;
 import org.springframework.boot.SpringApplication;
 
-import com.ctrip.dubbo.client.WebInitializer;
+import org.ghy.dubbo.client.WebInitializer;
 
 /**
  * @author hy_gu on 2018/3/9

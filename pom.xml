@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ctrip.framework</groupId>
+    <groupId>org.ghy.dubbo</groupId>
     <artifactId>dubbo-demo</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -13,7 +13,8 @@
 
     <properties>
         <springboot.version>1.4.3.RELEASE</springboot.version>
-        <dubbo.version>2.7.3-SNAPSHOT</dubbo.version>
+        <dubbo.version>2.7.3</dubbo.version>
+        <curator.version>2.11.0</curator.version>
         <java.version>1.8</java.version>
     </properties>
 
@@ -35,6 +36,16 @@
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
