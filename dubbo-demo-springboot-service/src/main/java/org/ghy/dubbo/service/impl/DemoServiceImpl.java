@@ -11,7 +11,7 @@ import org.apache.dubbo.config.annotation.Service;
 import org.ghy.dubbo.api.CallbackListener;
 import org.ghy.dubbo.api.DemoService;
 
-@Service
+@Service(protocol = "dubbo1")
 public class DemoServiceImpl implements DemoService {
   private final Map<String, CallbackListener> listeners = new ConcurrentHashMap<String, CallbackListener>();
 
