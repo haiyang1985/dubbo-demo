@@ -10,7 +10,6 @@ import org.springframework.context.annotation.PropertySource;
 @SpringBootApplication
 @DubboComponentScan()
 @EnableDubbo(scanBasePackages = "org.ghy.dubbo.service")
-@PropertySource("classpath:/spring/dubbo-provider.properties")
 public class ServiceInitializer extends SpringBootServletInitializer {
 
   @Override
